@@ -1,0 +1,37 @@
+.cb-input-container{
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.chatbot-container{
+    background-color: #ccc;
+    position: absolute;
+    top: 5rem;
+    bottom: 5rem;
+    overflow-y: scroll;
+    right: 0;
+    left: 0;
+    padding: 2rem 8rem;
+    gap:2rem;
+}
+
+.cb-input-container input {
+    width: 70%;
+    padding: 1.3rem;
+    border: none;
+    background-color: #ccc;
+    opacity: 0.4;
+    border-radius: 0.5rem;
+}
+.cb-input-container  img{
+    width: 45px;
+}
+.cb-input-container  img:hover{
+    transform: scale(1.1);
+}

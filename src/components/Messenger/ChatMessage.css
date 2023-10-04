@@ -1,0 +1,22 @@
+.chat-message-left {
+    text-align: left;
+    width: 550px;
+    background-color: #fff;
+    color: #000; /* Left message background color */
+    padding: 12px;
+    border-radius: 8px;
+    margin: 5px;
+    margin-top: 5rem;
+  }
+  
+  .chat-message-right {
+    text-align: right;
+    background-color: darkorange; 
+    color: #fff;/* Right message background color */
+    padding: 12px;
+    border-radius: 5px;
+    margin: 5px;
+    width: 350px;
+    float: right;
+  }
+  

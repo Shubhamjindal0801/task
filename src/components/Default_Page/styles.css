@@ -1,0 +1,39 @@
+.dp-container{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5rem;
+    top: 50%;
+    right: 0;
+    left: 0;
+    transform: translateY(-50%);
+}
+.left-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.left-div h1{
+    font-size: 3rem;
+}
+.left-div h5{
+    font-size: 1.1rem;
+}
+.left-div button{
+    padding: 0.6rem;
+    border-radius: 0.8rem;
+    border: none !important;
+    color: #fff;
+    background-color: darkorange;;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.right-div{
+    margin-right: 4rem;
+}

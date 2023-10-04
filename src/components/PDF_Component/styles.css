@@ -1,0 +1,47 @@
+.pdf-container{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    width: 700px;
+    padding: 5rem;
+    box-shadow: 1px 1px 8px #000;
+    border-radius: 18px;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.loader-container {
+    padding: 1.5rem 0;
+}
+.label-container{
+    margin: 2rem;
+}
+.label-container label{
+    border: none;
+    padding: 1.5rem 4rem;
+    background-color: rgb(78, 78, 243);
+    color: #fff;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-style: italic;
+    cursor: pointer;
+}
+.pdf-container p{
+    margin: 2rem 0 0 0;
+}
+.pdf-container button{
+    padding: 0.6rem;
+    border-radius: 0.8rem;
+    border: none !important;
+    color: #fff;
+    background-color: darkorange;
+    font-size: 1rem;
+    cursor: pointer;
+}
